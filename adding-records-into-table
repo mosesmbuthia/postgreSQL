@@ -1,0 +1,21 @@
+To insert records into tablea, we use the following command.
+```sql
+INSERT INTO person (
+    first_name,
+    last_name,
+    gender,
+    date_of_birth)
+VALUES ('Anne', 'Smith', 'FEMALE', DATE '1988-01-09')
+```
+When we insert another record into the table, we do it as follows. 
+```sql
+INSERT INTO person (
+    first_name,
+    last_name,
+    gender,
+    date_of_birth)
+VALUES ('Jake', 'Jones', 'MALE', DATE '1990-10-06', 'jake@gmail.com')
+```
+
+This is how it will appear in postgreSQL
+![alt text](image-7.png)

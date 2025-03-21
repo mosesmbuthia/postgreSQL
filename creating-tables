@@ -42,3 +42,5 @@ We use the following command flow to create a table with constraints.
 This is how a table with constraints looks like in PostgreSQL
 
 ![alt text](image-6.png)
+
+
