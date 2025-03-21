@@ -18,4 +18,27 @@ CREATE TABLE person (
 
 )
 ```
+Here is how the created table looks like. 
+![alt text](image-4.png)
 
+This is a table with no constraints.
+
+To view the table, we run the command `\d` and run the command `\d (table-name) ` to open the table
+
+Example
+![alt text](image-5.png)
+
+## Creating Tables with constraints
+
+We use the following command flow to create a table with constraints.
+
+```sql
+    id BIGSERIAL NOT NULL PRIMARY KEY,
+    first_name VARCHAR(50) NOT NULL,
+    last_name VARCHAR(50) NOT NULL,
+    gender VARCHAR(7) NOT NULL,
+    date_of_birth DATE NOT NULL,
+```
+This is how a table with constraints looks like in PostgreSQL
+
+![alt text](image-6.png)
