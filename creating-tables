@@ -1,0 +1,21 @@
+## Creating tables with PostgresQL
+
+To create a table, you must run the following command 
+```sql
+CREATE TABLE   table_name (
+    column name + data type + constraints if any
+)
+```
+An example is
+
+```sql
+CREATE TABLE person (
+    id int,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    gender VARCHAR(7),
+    date_of_birth DATE,
+
+)
+```
+
